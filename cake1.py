@@ -1,3 +1,12 @@
+'''
+Given a non-empty string e.g. "abcabc" find the highest number of repetitive patterns.
+In this case, "abc" repeats twice, so return 2.
+
+Test cases:
+abccbaabccba => 2 ("abccba")
+aabbccdd     => 1 ("aabbccdd")
+'''
+
 def checker(mnm, toTest):
     '''
     given mnm='abcabc', and toTest='abc', check if 
